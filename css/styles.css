@@ -1,0 +1,190 @@
+body {
+    font-family: 'Ubunto', 'sans-serif';
+    background-color: #fff;
+    /* font-size: large; */
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', 'sans-serif' !important;
+}
+
+h1 {
+    size: 6rem !important;
+    line-height: 1.5 !important;
+    font-weight: bold !important;
+
+}
+
+h2 {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+}
+
+h3 {
+    font-weight: 900 !important;
+    font-size: 1.5rem !important;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+
+.container-fluid {
+    padding: 3% 15% 7% !important;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 3rem !important;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', 'sans-serif';
+    font-weight: bold;
+    font-size: 2.5rem !important;
+}
+
+.nav-item {
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.btn-download {
+    padding: 0.5rem 1.5rem !important;
+}
+
+.icon {
+    padding-right: 1rem;
+}
+
+/* Title Image  */
+
+.title-image {
+    /* width: 25%; */
+    transform: rotate(25deg);
+    /* z-index: -1; */
+    position: absolute;
+    /* padding-left: 3rem; */
+    /* right: auto; */
+}
+
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        padding-top: 8%;
+        transform: rotate(0);
+
+    }
+}
+
+
+/* Features Styling */
+
+#features {
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    /* z-index: 1; */
+
+}
+
+.features-icon {
+    /* size: 3rem !important; */
+    color: #ef8172;
+    font-size: 5rem;
+
+}
+
+
+.features-p {
+    /* color: #8f8f8f; */
+    color: #fff;
+
+}
+
+/* Testimonials Sections */
+
+
+.testimonials-container {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 15% !important;
+}
+
+.testimonials-container>img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 5px;
+}
+
+
+#pricing {
+    text-align: center;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+#card-spacer {
+    padding: 3% 2%;
+}
+
+
+#cta {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.cta-heading {
+    font-weight: 900;
+    font-size: 3.5rem !important;
+    margin: 3%;
+}
+
+#footer {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+
+.card-footer {
+    color: #fff;
+}
+
+
+.social-icon {
+    color: #fff;
+    padding: 5% 1%;
+    size: 24px;
+}
